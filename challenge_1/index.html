@@ -1,2 +1,31 @@
-
+<!doctype html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+	    <title>Tic Tac Toe</title>
+	    <link rel="stylesheet" href="styles/styles.css">
+ 	</head>
+ 	<body>
+	    <table>
+		    <tr>
+		        <td id="11" onclick="onClick(this)"></td>
+		        <td id="12" onclick="onClick(this)"></td>
+		        <td id="13" onclick="onClick(this)"></td>
+		    </tr>
+		    <tr>
+		        <td id="21" onclick="onClick(this)"></td>
+		        <td id="22" onclick="onClick(this)"></td>
+		        <td id="23" onclick="onClick(this)"></td>
+		    </tr>
+		    <tr>
+		        <td id="31" onclick="onClick(this)"></td>
+		        <td id="32" onclick="onClick(this)"></td>
+		        <td id="33" onclick="onClick(this)"></td>
+		    </tr>
+		</table>
+		<div id="message">It is X's turn</div>
+		<button id="newgame" onclick="reset()">Reset game</button>
+ 	</body>
+	<script src="app.js"></script>
+</html>
 
